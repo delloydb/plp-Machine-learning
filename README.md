@@ -1,3 +1,74 @@
+# Machine Learning plp assignment 
+## 📘 Crop Yield Prediction Using AI
+An AI-Driven Tool to Support SDG 2: Zero Hunger
+
+# 📌 Project Overview
+This project demonstrates how supervised machine learning can help tackle food insecurity by predicting crop yields using environmental and historical agricultural data. It contributes to the United Nations Sustainable Development Goal 2 (Zero Hunger) by enabling data-driven agricultural decision-making for farmers, NGOs, and policymakers.
+
+#🎯 Goal
+To build a predictive model that estimates crop yield (in tons per hectare) using a set of key features such as:
+Rainfall
+Temperature
+Soil type
+NDVI (vegetation health)
+Past yield records
+
+# 🧠 Machine Learning Approach
+Type: Supervised Learning
+Algorithm: Random Forest Regressor
+Metric Evaluation:
+Mean Absolute Error (MAE)
+R² Score (Explained Variance)
+
+# 🛠 Features
+Synthetic dataset generation to simulate real-world crop factors
+One-hot encoding of categorical features (soil type)
+Feature scaling using StandardScaler
+Model training, evaluation, and visualization
+Feature importance analysis
+Clean, modular Python codebase
+
+# 🗂 File Structure
+
+ai_crop_yield_prediction/
+│
+├── data_loader.py         # Data generation and preprocessing
+├── model.py               # Model training and saving
+├── evaluate.py            # Model evaluation and plotting
+├── utils.py               # Helper utilities (encoding)
+├── main.py                # Main script to run the full pipeline
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+# ⚙️ How to Run
+Clone the Repository
+
+git clone https://github.com/yourusername/ai_crop_yield_prediction.git
+cd ai_crop_yield_prediction
+Install Dependencies
+
+pip install -r requirements.txt
+Run the Project
+
+python main.py
+# 📊 Results
+Mean Absolute Error (MAE): ~0.46 tons/ha
+R² Score: ~0.68
+The model correctly identifies key influencers like NDVI, past yield, and rainfall.
+
+# 🔐 Ethical Reflection
+Bias Awareness: Real-world deployment requires de-biasing across regions, crop types, and climate zones.
+Fairness: This solution supports equal access to prediction tools for farmers in under-resourced regions.
+Sustainability: Promotes data-driven agriculture, reducing waste and optimizing food production.
+
+# 📎 Future Enhancements
+Integrate real-world datasets from FAO, World Bank, or satellite APIs
+Add regional customization per country or crop type
+Deploy as a web app using Streamlit or Flask
+Enable mobile access for rural farmers
+
+# 🙌 License
+This project is open-source and free to use under the MIT License.
+
 # plp-Machine-learning Documentation 
 AI for Sustainable Development Report
 Project Title:
