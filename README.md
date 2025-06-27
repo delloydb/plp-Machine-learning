@@ -59,6 +59,8 @@ The model correctly identifies key influencers like NDVI, past yield, and rainfa
 Bias Awareness: Real-world deployment requires de-biasing across regions, crop types, and climate zones.
 Fairness: This solution supports equal access to prediction tools for farmers in under-resourced regions.
 Sustainability: Promotes data-driven agriculture, reducing waste and optimizing food production.
+# visuals 
+![Uploading 895abe6a-f637-4335-a3a2-66c05c3785a0.png…]()
 
 # 📎 Future Enhancements
 Integrate real-world datasets from FAO, World Bank, or satellite APIs
